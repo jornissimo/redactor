@@ -1,0 +1,37 @@
+    QMainWindow, QWidget {
+        background-color: #050505;
+        color: #e0e0e0;
+        font-family: 'Segoe UI', sans-serif;
+    }
+    QMenuBar {
+        background-color: #0a0a0a;
+        padding: 10px;
+        font-size: 20px;
+    }
+    QMenuBar::item {
+        padding: 12px 25px;
+        font-size: 18px; 
+        background: transparent;
+    }
+    QMenuBar::item:selected { background-color: #222; }
+
+    QMenu::item {
+        padding: 12px 30px;
+        font-size: 18px;
+    }
+
+    QTextEdit {
+        background-color: #050505;
+        border: 1px solid #1a1a1a;
+        padding: 20px;
+        font-size: 18px; 
+        color: #ccc;
+        line-height: 1.6;
+    }
+    
+    QLabel {
+        color: #555;
+        font-size: 11px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
